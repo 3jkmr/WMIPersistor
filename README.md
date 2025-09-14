@@ -1,9 +1,9 @@
 # WMIPersistor
 
-# Description:
+<h2>Description:<h2>
 WMIPersistor is a PowerShell-based tool designed to create, query, and delete WMI Event Subscriptions on Windows systems. It allows penetration testers to create persistence mechanisms via WMI events.
 
-# Key Features:
+<h2>Key Features:<h2>
 Create WMI Event Subscriptions: 
 Monitor specific processes and trigger custom PowerShell payloads when those processes start.
 
@@ -21,3 +21,11 @@ Accepts raw PowerShell commands and automatically encodes them in Base64 for exe
 
 Interactive Menu: 
 Simple, user-friendly menu for all operations, returning to the main menu after each action.
+
+<h2>Usage</h2>
+<pre><code>powershell .\WMIPersistor.ps1</code></pre>
+
+<h2>Legal Notice</h2>
+<p>This project is provided <em>as-is</em> for educational and research purposes only.
+The author(s) are not responsible for misuse. Do not use this tool on systems, data,
+or accounts without explicit authorization.</p>
