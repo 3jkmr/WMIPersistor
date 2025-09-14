@@ -6,6 +6,7 @@ WMIPersistor is a PowerShell-based tool designed to create, query, and delete WM
 <h2>Key Features:</h2>
 Create WMI Event Subscriptions: Monitor specific processes and trigger custom PowerShell payloads when those processes start.
 
+
 Query Existing Subscriptions: Display all current Event Filters, Event Consumers, and Filter-to-Consumer Bindings, with full details including WQL queries and encoded payloads.
 
 Delete Subscriptions Safely: 
